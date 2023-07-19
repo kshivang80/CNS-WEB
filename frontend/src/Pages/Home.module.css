@@ -1,0 +1,42 @@
+.icone{
+    border:1px solid red;
+    height:25px;
+    width:23px;
+}
+.mainDiv{
+    border:1px solid red;
+    
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
+    
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    /* STYLES HERE */
+ 
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+
+    .icone{
+        border:1px solid red;
+        height:23px;
+        width:21px;
+    }
+
+    
+    
+}
