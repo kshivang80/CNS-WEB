@@ -57,7 +57,7 @@ export default function Navbar({children,}) {
     
 
   return (
-    <Box minH="100vh" bg={useColorModeValue('gray.100', 'gray.900')}>
+    <Box minH="100vh" >
       <SidebarContent
         onClose={() => onClose}
         display={{ base: 'none', md: 'block' }}

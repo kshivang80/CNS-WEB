@@ -2,6 +2,8 @@ import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Text } from '@chakra-u
 import React from 'react'
 import {AiOutlineHome} from "react-icons/ai"
 import styles from "./Home.module.css";
+import Cubes from './Cubes';
+
 
 const Home = () => {
 
@@ -12,7 +14,7 @@ const Home = () => {
   return (
     <div className={styles.mainDiv} style={{  height: "2500px" }}>
 
-      <Box border="1px solid yellow" display={"flex"} justifyContent={"space-between"} h="50px" w="100%">
+      <Box border="1px solid yellow" display={"flex"} justifyContent={"space-between"} h="50px" w="100%" boxShadow= "rgba(149, 157, 165, 0.2) 0px 8px 24px">
         <Box border="1px solid green" w={{base:"50%", md:"40%",lg:"30%"}} display={'flex'} alignItems={"center"} textAlign={"center"}>
           <Text as='b' ml={'20px'} fontSize={{base:"20px", md:"20px",lg:"27px"}} color="#2F2F3B" fontFamily={"sans-serif"}>Default</Text>
         </Box>
@@ -42,6 +44,8 @@ const Home = () => {
         </Box>
 
       </Box>
+
+      <Cubes/>
 
       
 
