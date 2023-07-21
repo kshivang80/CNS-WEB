@@ -9,9 +9,7 @@ const AllRoutes = () => {
 
                 <Route path="/" element={<Home />}></Route>
 
-                {/* <Route path="/login" element={<Login />}></Route>
-                  <Route path="/signup" element={<Signup />}></Route>
-                     <Route path="/postdata" element={<PrivateRoute><PostCar /></PrivateRoute>}></Route> */}
+              
 
             </Routes>
         </div>

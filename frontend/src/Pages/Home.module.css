@@ -1,5 +1,5 @@
 .icone{
-    border:1px solid red;
+    /* border:1px solid red; */
     height:25px;
     width:23px;
 }
@@ -32,7 +32,7 @@
     /* STYLES HERE */
 
     .icone{
-        border:1px solid red;
+        /* border:1px solid red; */
         height:23px;
         width:21px;
     }
