@@ -28,7 +28,7 @@ const Activity = () => {
                         {Dataactivity.map((ele) => (
                             <Box  h="140px" display={"flex"} justifyContent={"space-between"}>
                                 <Box  h="100%" w="70%" display={"flex"}>
-                                    <Box w="10%" h="100%"  display={"flex"} justifyContent={"center"} alignItems={"center"} padding="10px">
+                                    <Box w="15%" h="100%" border="1px solid white"  display={"flex"} justifyContent={"center"} alignItems={"center"} padding="10px">
                                         <RangeSlider
                                             aria-label={['min', 'max']}
                                             colorScheme='purple'
@@ -44,7 +44,7 @@ const Activity = () => {
                                         </RangeSlider>
 
                                     </Box>
-                                    <Box w="90%" h="100%" >
+                                    <Box w="85%" h="100%" >
                                         <Button bg="white" variant='ghost' mt='5px'>
                                             <Text fontFamily={"inherit"} fontSize={{ base: "18px", sm: "18px", md: "16px", lg: "16px" }} color="gray.500">{ele.date}</Text>
                                         </Button>
