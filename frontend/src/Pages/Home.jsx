@@ -6,6 +6,7 @@ import Cubes from './Cubes';
 import Activity from './Activity';
 import Overall from './Overall';
 import Total from './Total';
+import Bottom from './Bottom';
 
 
 const Home = () => {
@@ -56,6 +57,7 @@ const Home = () => {
       
       <Activity/>
       <Total/>
+       <Bottom/>
       
 
 
