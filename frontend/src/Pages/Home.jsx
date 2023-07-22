@@ -4,6 +4,8 @@ import {AiOutlineHome} from "react-icons/ai"
 import styles from "./Home.module.css";
 import Cubes from './Cubes';
 import Activity from './Activity';
+import Overall from './Overall';
+import Total from './Total';
 
 
 const Home = () => {
@@ -13,7 +15,7 @@ const Home = () => {
 
 
   return (
-    <div className={styles.mainDiv} style={{  height: "2500px" }}>
+    <div className={styles.mainDiv} style={{  height: "auto" }}>
 
       <Box  display={"flex"} justifyContent={"space-between"} h="50px" w="100%" boxShadow= "rgba(149, 157, 165, 0.2) 0px 8px 24px">
         <Box  w={{base:"50%", md:"40%",lg:"30%"}} display={'flex'} alignItems={"center"} textAlign={"center"}>
@@ -46,8 +48,14 @@ const Home = () => {
 
       </Box>
 
+      
+      <Box >
       <Cubes/>
+      </Box>
+      <Overall/>
+      
       <Activity/>
+      <Total/>
       
 
 

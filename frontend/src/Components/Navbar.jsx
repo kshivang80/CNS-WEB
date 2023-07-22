@@ -23,6 +23,7 @@ import {
   MenuList,
   Button,
   useColorMode,
+  Image,
 } from '@chakra-ui/react';
 import {
   FiHome,
@@ -41,14 +42,40 @@ import {MdOutlineTask,MdOutlineLogin} from "react-icons/md"
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import {RiSearchLine } from "react-icons/ri"
 import AllRoutes from '../Routes/AllRoutes';
+import { BiLogOut, BiLayout, BiHeart } from "react-icons/bi";
+import { TbLayoutGridAdd, TbCube, TbMessages, TbUsers } from "react-icons/tb";
+import { LuCircleDot, LuFile, LuLayoutGrid } from "react-icons/lu";
+import { PiBasket, PiShootingStarLight, PiLightbulbThin } from "react-icons/pi";
+import { GoMail } from "react-icons/go";
+import { HiOutlineHome } from "react-icons/hi";
+import { CiShoppingBasket } from "react-icons/ci";
+import { BsBell } from "react-icons/bs";
+import { CiSearch } from "react-icons/ci";
+import { GoChevronDown } from "react-icons/go";
+import { LiaFlagUsaSolid } from "react-icons/lia";
+
 
 
 const LinkItems = [
-  { name: 'Home', icon: FiHome },
-  { name: 'Trending', icon: FiTrendingUp },
+  
+ 
+  { name: 'Dashboards', icon: HiOutlineHome },
+  { name: 'Widgets', icon: TbLayoutGridAdd },
+  { name: 'Page Layout', icon: BiLayout },
+  { name: 'Project', icon: LuCircleDot },
+  { name: 'File Manager', icon: LuFile },
+  { name: 'Kanban Board', icon: TbCube },
+
+  { name: 'Ecommerce', icon: PiBasket },
+  { name: 'Letter Box', icon: GoMail },
+  { name: 'Chat', icon: TbMessages },
+  { name: 'Users', icon: TbUsers },
+  { name: 'Bookmarks', icon: BiHeart },
+
   { name: 'Explore', icon: FiCompass },
-  { name: 'Favourites', icon: FiStar },
-  { name: 'Settings', icon: FiSettings },
+ 
+
+  
 ];
 
 export default function Navbar({children,}) {
@@ -101,9 +128,9 @@ const SidebarContent = ({ onClose, ...rest }) => {
       
       {...rest}>
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <Text fontSize="2xl" fontFamily="monospace" fontWeight="bold">
-          Logo
-        </Text>
+       <Box >
+           <Image src="https://admin.pixelstrap.com/cuba/assets/images/logo/logo.png" />
+       </Box>
         <CloseButton display={{ base: 'flex', md: 'none' }} onClick={onClose} />
       </Flex>
       {LinkItems.map((link) => (
@@ -207,7 +234,7 @@ const MobileNav = ({ onOpen, ...rest }) => {
                 <Avatar
                   size={'sm'}
                   src={
-                    'https://images.unsplash.com/photo-1619946794135-5bc917a27793?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9'
+                    'https://avatars.githubusercontent.com/u/103144321?v=4'
                   }
                 />
                 <VStack
@@ -215,7 +242,7 @@ const MobileNav = ({ onOpen, ...rest }) => {
                   alignItems="flex-start"
                   spacing="1px"
                   ml="2">
-                  <Text fontSize="sm">Justina Clark</Text>
+                  <Text fontSize="sm">Shivang kumar</Text>
                   <Text fontSize="xs" color="gray.600">
                     Admin
                   </Text>

@@ -12,6 +12,7 @@ import SmallBar from './SmallBar';
 
 
 const Cubes = () => {
+    
     return (
         <div>
             <Box  w="100%" h="auto" mt="30px">
