@@ -21,19 +21,19 @@ const Cubes = () => {
                         <SimpleGrid columns={{ base: 1, sm: 1, md: 1, lg: 2 }} spacing={2}>
                             <Box   className='b1' height='300px'  w={{ base: "100%", sm: '100%', md: "100%", lg: "120%" }} display="flex" justifyContent="center" alignItems={"center"} >
                                 <Box className={styles.gradient} w="95%" h="240px" borderRadius={"20px"} display="flex">
-                                    <Box w="60%" h="100%" border="1px solid white"  >
+                                    <Box w="60%" h="100%"   >
                                         <Box w="95%" m="auto" mt='30px'  padding="10px">
                                             <Text color="white" fontSize={{ base: "20px", sm: '18px', md: "24px", lg: "28px" }} fontFamily={'fantasy'}>Welcome to Cube</Text>
                                             <Text color="white" fontSize={{ base: "15px", sm: '15px', md: "15px", lg: "16px" }} fontFamily={'sans-serif'}>Here Whats happing in your account today</Text>
 
                                         </Box>
-                                        <Box border="1px solid white" w="60%" h="45px" mt="30px" ml="20px" borderRadius={"10px"} display="flex" justifyContent="center" alignItems={"center"}>
+                                        <Box  w="60%" h="45px" mt="30px" ml="20px" borderRadius={"10px"} display="flex" justifyContent="center" alignItems={"center"}>
                                             <Text color="white" fontFamily={"sans-serif"} fontSize={"16px"} >What New !</Text>
 
                                         </Box>
 
                                     </Box>
-                                    <Box w="40%" h="100%" border="1px solid white" >
+                                    <Box w="40%" h="100%"  >
                                         <Box h="30%"  w="100%">
 
 

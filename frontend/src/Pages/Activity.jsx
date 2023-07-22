@@ -29,7 +29,7 @@ const Activity = () => {
                         {Dataactivity.map((ele) => (
                             <Box h="140px" display={"flex"} justifyContent={"space-between"}>
                                 <Box h="100%" w="70%" display={"flex"}>
-                                    <Box w="15%" h="100%" border="1px solid white" display={"flex"} justifyContent={"center"} alignItems={"center"} padding="10px">
+                                    <Box w="15%" h="100%"  display={"flex"} justifyContent={"center"} alignItems={"center"} padding="10px">
                                         <RangeSlider
                                             aria-label={['min', 'max']}
                                             colorScheme='purple'
