@@ -17,11 +17,11 @@ const Home = () => {
   return (
     <div className={styles.mainDiv} style={{  height: "auto" }}>
 
-      <Box  display={"flex"} justifyContent={"space-between"} h="50px" w="100%" boxShadow= "rgba(149, 157, 165, 0.2) 0px 8px 24px">
+      <Box   display={"flex"} justifyContent={"space-between"} h="50px" w="100%" boxShadow= "rgba(149, 157, 165, 0.2) 0px 8px 24px">
         <Box  w={{base:"50%", md:"40%",lg:"30%"}} display={'flex'} alignItems={"center"} textAlign={"center"}>
           <Text as='b' ml={'20px'} fontSize={{base:"20px", md:"20px",lg:"27px"}} color="#2F2F3B" fontFamily={"sans-serif"}>Default</Text>
         </Box>
-        <Box  w={{base:"45%", md:"40%",lg:"30%"}} color="#2F2F3B" display={'flex'} alignItems={"center"} textAlign={"center"}>
+        <Box  w={{base:"45%", md:"40%",lg:"30%"}} color="#2F2F3B" display={'flex'} justifyContent={"end"} alignItems={"center"} textAlign={"center"} padding={"20px"}>
           <Breadcrumb >
             <BreadcrumbItem>
               <BreadcrumbLink  >
@@ -49,9 +49,9 @@ const Home = () => {
       </Box>
 
       
-      <Box >
+     
       <Cubes/>
-      </Box>
+      
       <Overall/>
       
       <Activity/>

@@ -12,7 +12,7 @@ import SmallBar from './SmallBar';
 
 
 const Cubes = () => {
-    
+
     return (
         <div>
             <Box  w="100%" h="auto" mt="30px">
@@ -86,7 +86,7 @@ const Cubes = () => {
                                             </Box>
                                         </Box>
                                         <Box h="100%" w="50%"  display={{ base: "", lg: "none" }}  >
-                                            <Box className='b1' border="1px solid red" h="40px " w="100%" mt="40px" display={"flex"} justifyContent={"end"} alignItems={"center"}>
+                                            <Box className='b1'  h="40px " w="100%" mt="40px" display={"flex"} justifyContent={"end"} alignItems={"center"}>
                                                 {/* <Box  h="40px " w="50%" display={"flex"} justifyContent={"end"}>
                                                 
                                             </Box> */}
@@ -122,7 +122,7 @@ const Cubes = () => {
                                     </Box>
                                 </Box>
                                 <Box h="100%" w="50%"  display={{ base: "", lg: "none" }}  >
-                                    <Box className='b1' border="1px solid red" h="40px " w="100%" mt="40px" display={"flex"} justifyContent={"end"} alignItems={"center"}>
+                                    <Box className='b1'  h="40px " w="100%" mt="40px" display={"flex"} justifyContent={"end"} alignItems={"center"}>
                                         {/* <Box  h="40px " w="50%" display={"flex"} justifyContent={"end"}>
                                                 
                                             </Box> */}
@@ -160,7 +160,7 @@ const Cubes = () => {
                                     </Box>
                                 </Box>
                                 <Box h="100%" w="50%"  display={{ base: "", lg: "none" }}  >
-                                    <Box className='b1' border="1px solid red" h="40px " w="100%" mt="40px" display={"flex"} justifyContent={"end"} alignItems={"center"}>
+                                    <Box className='b1'  h="40px " w="100%" mt="40px" display={"flex"} justifyContent={"end"} alignItems={"center"}>
                                         {/* <Box  h="40px " w="50%" display={"flex"} justifyContent={"end"}>
                                                 
                                             </Box> */}
